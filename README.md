@@ -26,7 +26,7 @@ npm run jest tên_file // run test 1 file
 
 # Hướng dẫn submit bài tập
 
-- ### Checkout sang nhánh mới khi bắt đầu làm bài
+- ### Checkout sang nhánh mới khi bắt đầu làm bài ( cần checkout lại nhánh chính nếu đang ở nhánh khác trước )
 
 ```shell
 git checkout -b ten_bai
