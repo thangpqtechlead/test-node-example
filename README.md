@@ -1,3 +1,29 @@
+# Hướng dẫn làm bài và unit test
+- ### Khởi tạo node project:
+
+```shell
+npm init
+```
+- ### Cài đặt jest
+
+```shell
+npm i -D jest
+```
+
+- ### Thêm jest script vào file package.json ( tham khảo: https://github.com/thangpqtechlead/test-node-example/blob/master/package.json )
+```shell
+"scripts": {
+    "test": "jest --verbose"
+},
+```
+- ### với mỗi bài tập tạo ra 2 file: ``` tên_bài_tập.js ``` và ``` tên_bàitập.test.js ```
+- ### Chạy test:
+```shell
+npm run jest // run test all project
+npm run jest tên_file // run test 1 file
+```
+
+
 # Hướng dẫn submit bài tập
 
 - ### Checkout sang nhánh mới khi bắt đầu làm bài
